@@ -84,16 +84,6 @@ class ChatAPI {
    * Get similar datasets for a given dataset ID
    */
   async getSimilarDatasets(datasetId: string): Promise<SimilarResponse | null> {
-    // For now, use mock data directly since the API endpoint isn't available
-    // This can be switched back to real API calls when the endpoint is implemented
-    // Add a small delay to simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    const mockData = this.getMockSimilarDatasets(datasetId);
-    
-    return mockData;
-
-    /* Uncomment this when the real API is available:
     try {
       // Add timeout to prevent hanging
       const controller = new AbortController();
@@ -111,20 +101,16 @@ class ChatAPI {
 
       if (!response.ok) {
         // eslint-disable-next-line no-console
-        console.warn(`Similar datasets API not available (${response.status}), using mock data`);
         return this.getMockSimilarDatasets(datasetId);
       }
 
       const data: SimilarResponse = await response.json();
-      // eslint-disable-next-line no-console
-      console.log('Similar datasets response:', data);
+      // eslint-disable-next-line no-console      console.log('Similar datasets response:', data);
       return data;
-    } catch (error) {
+    } catch {
       // eslint-disable-next-line no-console
-      console.error('Error fetching similar datasets, using mock data:', error);
       return this.getMockSimilarDatasets(datasetId);
     }
-    */
   }
 
   /**
