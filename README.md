@@ -93,7 +93,7 @@ GovChat/
    - Click a dataset node in the tree (D3.js).
    - The frontend calls `/similar/{dataset_id}` to retrieve related datasets.
    - Tree updates dynamically to show dataset relationships.
-   - Click on speciic parent nodes, to get furher similarity datasets for that specific node.
+   - Click on specific parent node, to get further similarity datasets for that specific node.
 3. **Chat with GovChat**
    - Ask natural language questions via the chat interface.
    - Backend processes query with retrieval-augmented generation (RAG).
