@@ -134,35 +134,23 @@ GET /audit/{audit_id}
 
 ---
 
-## 🏃 Getting Started
+##  GovChat - View
 
-### 1. Clone the repository
+### 1. Trust Metrics
+<img width="1902" height="917" alt="image" src="https://github.com/user-attachments/assets/36bfc016-1608-4f7a-9ba5-7187b8d9cd8c" />
 
-```bash
-git clone https://github.com/Shalok-sys/GovChat.git
-cd GovChat
-```
+### 2. Similar Datasets
+<img width="1903" height="915" alt="image" src="https://github.com/user-attachments/assets/93e5ea2e-3611-4f6f-a2c8-16a924df9c68" />
 
-### 2. Run the backend
+### 3. Explore Datasets
+<img width="1906" height="913" alt="image" src="https://github.com/user-attachments/assets/b9b8a8e1-e314-420a-82ba-4d869e1cb68a" />
 
-```bash
-cd govchat-backend
-uvicorn main:app --reload --port 8001
-```
+### 4. Tree View
+<img width="1889" height="907" alt="image" src="https://github.com/user-attachments/assets/05a9d235-d1e6-41b0-81e0-cfb0efe44aa2" />
 
-API docs available at [http://localhost:8001/docs](http://localhost:8001/docs)
+### 5. View Audit 
+<img width="1888" height="904" alt="image" src="https://github.com/user-attachments/assets/9d3d33d8-e424-4b22-aafb-1bc4725280e7" />
 
-### 3. Run the frontend
-
-```bash
-cd govchat-frontend
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
----
 
 ## ⚖️ Trust & Transparency
 
