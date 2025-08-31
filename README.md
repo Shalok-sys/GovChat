@@ -1,4 +1,4 @@
-# GovHack 2025 – Open Government Data Explorer
+# GovHack 2025 – Navigating Australia’s Data Landscape 
 
 A full-stack project for **exploring, searching, and visualizing open government datasets** .
 
