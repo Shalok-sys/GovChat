@@ -1,0 +1,6 @@
+.env
+__pycache__
+*/__pycache__
+*/audit_logs
+# /statistics-server/vector_store
+/statistics-server/audit_logs
