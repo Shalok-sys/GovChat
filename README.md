@@ -6,7 +6,7 @@ The system combines a modern **React + Next.js frontend (GovHackUI)** with a **F
 
 ---
 
-## ✨ Features
+## Features
 
 ### Frontend – GovHackUI
 
