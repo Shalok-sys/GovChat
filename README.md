@@ -8,7 +8,7 @@ The system combines a modern **React + Next.js frontend (GovHackUI)** with a **F
 
 ## ✨ Features
 
-### 🌐 Frontend – GovHackUI
+### Frontend – GovHackUI
 
 - **Modern UI/UX:** Built with **React + Next.js** for fast routing and component-driven development.
 - **Material UI (MUI):** Accessible, responsive design with **dark mode** .
@@ -17,7 +17,7 @@ The system combines a modern **React + Next.js frontend (GovHackUI)** with a **F
 - **Dynamic API Integration:** Real-time dataset fetching from the backend using **Axios** .
 - **Responsive & Accessible:** Works across devices with scrollable containers and keyboard navigation.
 
-### ⚙️ Backend – GovChat API
+### Backend – GovChat API
 
 - **Dataset Search:** Natural language search with top results and AI-generated responses.
 - **Similarity Search:** Find datasets related to a given dataset via **vector embeddings** .
@@ -26,7 +26,7 @@ The system combines a modern **React + Next.js frontend (GovHackUI)** with a **F
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```
 GovChat/
@@ -83,7 +83,7 @@ GovChat/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Search datasets**
    - Enter a query in the frontend search bar.
@@ -104,7 +104,7 @@ GovChat/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Query datasets
 
@@ -126,7 +126,7 @@ GET /audit/{audit_id}
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 - **Frontend:** React, Next.js, Material UI, D3.js, Axios, TypeScript
 - **Backend:** FastAPI, ChromaDB, OpenAI Embeddings, SQLite
@@ -152,7 +152,7 @@ GET /audit/{audit_id}
 <img width="1888" height="904" alt="image" src="https://github.com/user-attachments/assets/9d3d33d8-e424-4b22-aafb-1bc4725280e7" />
 
 
-## ⚖️ Trust & Transparency
+## Trust & Transparency
 
 Each backend response includes a **trust score** , based on:
 
@@ -166,7 +166,7 @@ This ensures transparency and reliability of dataset results.
 
 ---
 
-## 📜 License
+## License
 
 MIT License
 
